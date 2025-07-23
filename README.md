@@ -41,7 +41,7 @@ $GPGGA,055649.000,0959.6422,N,07617.4754,E,1,08,0.9,545.4,M,46.9,M,,*47
 
 ---
 
-## 🧭 Extracted Fields
+##  Extracted Fields
 
 | Field     | Value       | Meaning                   |
 |-----------|-------------|---------------------------|
@@ -204,7 +204,7 @@ void printTime(int h, int m, int s) {
 
 ```
 
-## OUTPUT
+## 📌 OUTPUT
 
 ```
 
@@ -239,3 +239,5 @@ $GPRMC support?
 Timestamp parsing?
 
 Firebase/IoT logging?
+
+Let me know!
