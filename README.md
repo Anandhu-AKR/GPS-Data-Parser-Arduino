@@ -1,4 +1,4 @@
-\# 🛰️ GPS Data Extraction and Conversion using Arduino
+## 🛰️ GPS Data Extraction and Conversion using Arduino
 
 
 
@@ -22,7 +22,7 @@ It:
 
 
 
-\## 📦 Components Used
+## 📦 Components Used
 
 
 
@@ -42,7 +42,7 @@ It:
 
 
 
-\## ⚙️ Hardware Setup
+## ⚙️ Hardware Setup
 
 
 
@@ -68,7 +68,7 @@ It:
 
 
 
-\## 🧪 Sample Raw NMEA Sentence
+## 🧪 Sample Raw NMEA Sentence
 
 
 
@@ -80,7 +80,7 @@ $GPGGA,055649.000,0959.6422,N,07617.4754,E,1,08,0.9,545.4,M,46.9,M,,\*47
 
 
 
-\## 🧭 Extracted Fields
+## 🧭 Extracted Fields
 
 
 
@@ -104,11 +104,11 @@ $GPGGA,055649.000,0959.6422,N,07617.4754,E,1,08,0.9,545.4,M,46.9,M,,\*47
 
 
 
-\## 📐 Latitude \& Longitude Conversion
+## 📐 Latitude \& Longitude Conversion
 
 
 
-\### 🧮 Conversion Formula:
+## 🧮 Conversion Formula:
 
 Decimal Degrees = Degrees + (Minutes / 60)
 
@@ -118,7 +118,7 @@ Decimal Degrees = Degrees + (Minutes / 60)
 
 
 
-\### ▶️ Latitude: `0959.6422`
+## ▶️ Latitude: `0959.6422`
 
 \- Degrees: `09`
 
@@ -132,7 +132,7 @@ Decimal Degrees = Degrees + (Minutes / 60)
 
 
 
-\### ▶️ Longitude: `07617.4754`
+## ▶️ Longitude: `07617.4754`
 
 \- Degrees: `076`
 
@@ -146,7 +146,7 @@ Decimal Degrees = Degrees + (Minutes / 60)
 
 
 
-\## 📍 Final Position (Decimal Degrees)
+## 📍 Final Position (Decimal Degrees)
 
 
 
@@ -162,7 +162,7 @@ Longitude = 76.291257° E
 
 
 
-\## ⏰ Time Conversion
+## ⏰ Time Conversion
 
 
 
@@ -172,7 +172,7 @@ Use this format to convert UTC to local time if needed.
 
 
 
-\## 🧑‍💻 Arduino Code Overview
+## 🧑‍💻 Arduino Code Overview
 
 
 
@@ -272,7 +272,7 @@ float convertToDecimal(String raw) {
 
 
 
-\## 📎 Notes
+## 📎 Notes
 
 
 
@@ -288,7 +288,7 @@ Time is in UTC; convert it based on your timezone as needed.
 
 
 
-\## 📜 License
+## 📜 License
 
 
 
@@ -298,7 +298,7 @@ Feel free to use and modify it for your own projects.
 
 
 
-\## 🤝 Contributing
+## 🤝 Contributing
 
 
 
