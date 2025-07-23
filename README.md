@@ -38,9 +38,6 @@ This project demonstrates how to extract and convert raw GPS data from a `$GPGGA
 
 $GPGGA,055649.000,0959.6422,N,07617.4754,E,1,08,0.9,545.4,M,46.9,M,,*47
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -84,9 +81,6 @@ Decimal Degrees = Degrees + (Minutes / 60)
 Latitude = 9.994037° N
 Longitude = 76.291257° E
 
-pgsql
-Copy
-Edit
 
 🔗 [View on Google Maps](https://www.google.com/maps?q=9.994037,76.291257)
 
