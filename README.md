@@ -207,13 +207,10 @@ void printTime(int h, int m, int s) {
 ## 📌 OUTPUT
 
 ```
-
 Latitude : 12.971598
 Longitude : 77.594566
 UTC Time: 07:20:15
 IST Time: 12:50:15
-
-
 ```
 ## 📎 Notes
 
