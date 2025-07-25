@@ -35,9 +35,9 @@ This project demonstrates how to extract and convert raw GPS data from a `$GPGGA
 ---
 
 ## 🧪 Sample Raw NMEA Sentence
-
+```
 $GPGGA,055649.000,0959.6422,N,07617.4754,E,1,08,0.9,545.4,M,46.9,M,,*47
-
+```
 
 ---
 
