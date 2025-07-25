@@ -78,8 +78,8 @@ Decimal Degrees = Degrees + (Minutes / 60)
 
 ## 📍 Final Position (Decimal Degrees)
 
-Latitude = 9.994037° N
-Longitude = 76.291257° E
+Latitude = `9.994037° N`
+Longitude = `76.291257° E`
 
 
 🔗 [View on Google Maps](https://www.google.com/maps?q=9.994037,76.291257)
@@ -214,7 +214,7 @@ IST Time: 12:50:15
 ```
 ## 📎 Notes
 
-Only $GPGGA is parsed. Extend to handle $GPRMC, $GPGLL, etc.
+Only `$GPGGA` is parsed. Extend to handle `$GPRMC`, `$GPGLL`, etc.
 
 Negative coordinates (South and West) are not handled in this snippet. You can check direction fields (N/S, E/W) and apply - accordingly.
 
